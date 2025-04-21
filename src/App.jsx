@@ -5,7 +5,7 @@ import { MdAddBox } from "react-icons/md";
 function App() {
   const [task, settask] = useState("");
   const handleClick = () => {
-
+    console.log("Hello")
   }
   return <>
     <input type="text" />
